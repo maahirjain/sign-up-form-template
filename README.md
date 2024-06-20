@@ -4,4 +4,4 @@ A sign-up form template I created as part of [The Odin Project's](https://www.th
 
 ![Screenshot of Webpage](./screenshot.png)
 
-The webpage features [a quote by Steve Jobs](https://www.goodreads.com/quotes/924-here-s-to-the-crazy-ones-the-misfits-the-rebels-the).
+The webpage features [a quote from Apple's Think Different ad campaign](https://basicappleguy.com/basicappleblog/heres-to-the-crazy-ones).
