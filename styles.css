@@ -156,3 +156,28 @@ textarea {
     border-radius: 10px;
 }
 
+@media only screen and (max-width: 1165px) {
+    .image-area {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    html {
+        overflow: visible;
+    }
+
+    body {
+        background-color: lightgray;
+    }
+
+    .form-area {
+        gap: 1rem;
+        padding: 1rem;
+    }
+
+    .form-details {
+        flex-direction: column;
+    }
+}
+
