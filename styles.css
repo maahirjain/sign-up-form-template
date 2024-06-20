@@ -1,0 +1,55 @@
+* {
+    font-family: "Courier Prime", monospace, sans-serif;
+    text-align: justify;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    overflow: hidden;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+}
+
+img {
+    height: 100vh;
+}
+
+.form-area {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: lightgray;
+    padding: 2rem;
+}
+
+.form-area > p {
+    font-size: 0.97rem;
+}
+
+
+.form-header > p:first-child {
+    font-weight: bolder;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.form-header > p:first-child + p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.form-area div:last-child {
+    background-color: black;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: auto;
+    border-radius: 10px;
+}
+
