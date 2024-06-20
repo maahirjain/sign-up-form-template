@@ -85,23 +85,28 @@ a {
 .form-details > div {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 1.5rem;
     flex: 1 1 0;
 }
 
 .form-details > div > div input {
-    width: 80%;
-    height: 80%;
+    width: 75%;
+    height: 75%;
 }
 
 label {
     display: block;
+    font-size: large;
+}
+
+input, textarea {
+    font-size: medium;
 }
 
 .form-dream {
     display: flex;
     flex-direction: column;
-    flex: 5 1 0;
+    flex: 4 1 0;
 }
 
 .form-dream > div:last-child {
